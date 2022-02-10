@@ -1,0 +1,32 @@
+footer {
+    text-align: center;
+    background-color: white;
+    padding: 20px 0;
+}
+footer i {
+    color: var(--celeste);
+    font-size: 3.6em;
+    margin-bottom: 10px;
+    transition: color .5s ease;
+}
+footer .copyright {
+    text-align: left;
+}
+footer div {
+    margin: 2rem 0;
+}
+footer section{
+    margin: 10px 0px;
+}
+@media (min-width: 769px){
+    footer div {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    footer i{
+        font-size: 5em;
+    }
+    footer i:hover{
+        color: var(--amarillo);
+    }
+}

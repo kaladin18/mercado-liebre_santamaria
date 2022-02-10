@@ -1,0 +1,114 @@
+header {
+    background-color: var(--amarillo);
+}
+header p {
+    text-align: center;
+}
+
+
+
+header .top-header {
+    flex-wrap: wrap;
+    padding: 10px;
+    align-items: center;
+    gap: 35px;
+}
+header .logo {
+    max-width: 40%;
+    flex-grow: 1;
+}
+header .logo img {
+    width: 100%;
+    margin-left: 20px;
+}
+
+header .top-header form{
+    display: flex;
+    flex-grow: 1;
+    max-width: 30%;
+    
+}
+header .top-header form i {
+    background-color: white;
+    padding: 10px 5px;
+}
+header .top-header p {
+    flex-grow: 1;
+    text-align: center;
+    align-items: center;
+}
+header ul li {
+    list-style-type: none;
+}
+header ul li a {
+    text-decoration: none;
+    color: #000;
+}
+header nav{
+    display: none;
+}
+
+.form input {
+    flex-grow: 1;
+    font-size: 0.6rem;
+}
+.form button{
+    cursor: pointer;
+}
+.burger-menu {
+    text-align: center;
+}
+
+.burger-menu i {
+    background-color: var(--celeste);
+    border-radius: 5px;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px 0 20px 0;
+}
+
+@media (min-width: 361px){
+    header nav {
+        padding: 2rem 0;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    header nav ul {
+        display: flex;
+        flex-grow: 1;
+        justify-content: space-evenly; 
+    }
+    .form input{
+        font-size: 1.5rem;
+        max-width: 90%;
+    }
+    .burger-menu {
+        display: none;
+    }
+    
+    header .top-header {
+        flex-wrap: nowrap;
+        justify-content: space-around;
+    }
+    header .top-header .logo {
+        max-width: 250px;
+    }
+}
+    
+@media (min-width: 769px){
+    header nav ul li {
+        font-size: var(--text-md);
+    }
+
+    .form input {
+        font-size: 1.5rem;
+    }
+    header .top-header .form {
+       max-width: 60%;
+    }
+    header .top-header p{
+        flex-grow: 0;
+    }
+}

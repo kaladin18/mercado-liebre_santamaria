@@ -1,0 +1,20 @@
+
+.interests{
+    display: flex;
+    flex-direction: column;
+}
+main .user-profile {
+    display: flex;
+    
+    gap: 20px;
+    justify-content: start;
+}
+.form-reg-log label {
+    font-size: var(--text-lg);
+}
+
+.password {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
