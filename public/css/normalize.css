@@ -57,6 +57,7 @@ img{
 .form-reg-log input {
     font-size: var(--text-lg);
     padding: 10px 0px;
+    border-radius: 5px;
 }
 /*Botones*/
 .buttons {
@@ -66,7 +67,7 @@ img{
     gap: 10px;
 }
 
-.button {
+.form-reg-log .button {
     padding: 15px 0px;
     background-color: var(--celeste);
     border: solid 1px black;

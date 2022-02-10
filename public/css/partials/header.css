@@ -32,6 +32,12 @@ header .top-header form i {
     background-color: white;
     padding: 10px 5px;
 }
+header .top-header button {
+    border-radius: 3px;
+}
+header .top-header button:hover {
+    box-shadow: 1px 1px var(--gris-oscuro);
+}
 header .top-header p {
     flex-grow: 1;
     text-align: center;
