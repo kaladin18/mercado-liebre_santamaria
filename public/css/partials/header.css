@@ -57,6 +57,8 @@ header nav{
 .form input {
     flex-grow: 1;
     font-size: 0.6rem;
+    border: solid 2px black;
+    border-radius: 5px;
 }
 .form button{
     cursor: pointer;

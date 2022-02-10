@@ -80,3 +80,10 @@ img{
         background-color: #0022AA;
         cursor: pointer;
 }
+.buttons .delete {
+    background-color: beige;
+    color: black;
+}
+.delete:hover {
+    background-color: #F72B2B;
+}
