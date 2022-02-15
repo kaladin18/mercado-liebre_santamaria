@@ -49,20 +49,20 @@ rel="stylesheet" />
                     <h2 class="subtitle">Datos</h2>
                     <input type="text" name="name" id="name" placeholder="Nombre y apellido" required>
                 
-                    <input type="text" name="username" id="username" placeholder="Nombre de usuario" required>
+                    <input type="text" name="username" id="username" placeholder="Nombre de usuario" required maxlength="15">
         
                     <input type="email" name="email" id="email" placeholder="correo@correo.com" required>
                     <div>
                         <label for="birthday">Fecha de nacimiento</label>
-                        <input type="date" name="birthday" id="birthday">
+                        <input type="date" name="birthday" id="birthday" required>
                     </div>
                     <input type="text" name="adress" id="adress" placeholder="Domicilio">
                 
                     <h4 class="subtitle">Perfil de usuario</h4>
                     <div class="user-profile">
-                        <label for="profile"><input type="radio" name="profile" id="buyer" value="buyer"> Comprador</label>
+                        <label for="profile"><input type="radio" name="profile" id="buyer" value="buyer" required> Comprador</label>
                     
-                        <label for="profile"><input type="radio" name="profile" id="seller" value="seller"> Vendedor</label>
+                        <label for="profile"><input type="radio" name="profile" id="seller" value="seller" required> Vendedor</label>
                     
                     </div>
                     
@@ -79,7 +79,7 @@ rel="stylesheet" />
                     
                     <section class="password">
                         <input type="password" name="password" id="password" placeholder="Contraseña" required minlength="5">
-                        <input type="password" name="repassword" id="password" placeholder=" Reingresa la contraseña" required>
+                        <input type="password" name="repassword" id="repassword" placeholder=" Reingresa la contraseña" required>
                     </section>
                     <div class="buttons">
                         <input class="button send" type="submit" value="Enviar">

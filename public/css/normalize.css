@@ -7,7 +7,7 @@ html{
     font-size: 62.5%;
 }
 body {
-    font-family: var(--Roboto);
+    font-family: var(--roboto);
     background-color: var(--gris-claro);
 }
 h3 {
@@ -32,6 +32,7 @@ img{
 }
 
 /*Register y Login*/
+
 .form-reg-log .button{
     font-size: var(--title);
 }
