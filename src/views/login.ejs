@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include("./partials/head.ejs") %>
+
+<body>
+    <%- include("./partials/header.ejs") %> 
+    <main>
+        <div class="main-reg-log">
+            <h3>Ingresá a tu cuenta</h3>
+            <form class="form-reg-log" action="/" method="POST" enctype="application/x-www-form-urlencoded">
+                <input type="text" name="username" id="username" placeholder="Nombre de usuario">
+                
+                <input type="password" name="password" id="password" placeholder="Contraseña">
+                
+                <div class="buttons">
+                    <input class="button send" type="submit" value="Ingresá">
+                    <input class="button delete" type="reset" value="Limpiar datos">
+                </div>
+            </form>
+        </div>
+    </main>
+    <%- include("./partials/footer.ejs") %> 
+</body>
+
+</html>
